@@ -20,9 +20,9 @@ const Footer = () => {
 					</svg>
             </div>
         </div>
-        <div className="w-1/2 h-full font-['Neue_Montreal'] flex flex-col justify-between ">
+        <div className="w-1/2 h-full  flex flex-col justify-between ">
             <Heading text={"Presentations"} classes={"text-[12vw] md:text-[8vw] lg:text-[6vw]"}/>
-            <div className="w-full flex flex-col gap-3">
+            <div className="w-full flex flex-col gap-3 font-['Neue_Montreal']">
             {
                  ["S:","Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => {
                     return(
