@@ -13,7 +13,7 @@ const StartProject = () => {
         </div>
         <div className="w-full flex items-center justify-center pt-32 md:pt-0 ">
             <Button 
-                classes={"w-[40vw] md:w-[28vw] py-3"}
+                classes={"w-[40vw] md:w-[28vw] lg:w-[16vw] py-3"}
                 text={"Start the project"} 
                 icon={<FaArrowLeftLong />}
                 iconClasses={"w-10 h-10 px-4 bg-white rounded-full  flex items-center justify-center"}
@@ -23,4 +23,4 @@ const StartProject = () => {
   )
 }
 
-export default StartProject
+export default StartProject;

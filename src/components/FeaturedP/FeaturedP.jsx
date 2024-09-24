@@ -48,7 +48,7 @@ const FeaturedP = () => {
           </h1>
           <div className="w-full flex items-center gap-2">
             <p className="w-3 md:w-2 h-3 md:h-2 rounded-full bg-zinc-900"></p>
-            <h1 className="uppercase text-[2.5vw] font-['Neue_Montreal'] tracking-tight">
+            <h1 className="uppercase text-[2.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-tight">
               Cardboard spaceship
             </h1>
           </div>
@@ -69,7 +69,7 @@ const FeaturedP = () => {
               (it, index) => {
                 return (
                   <div
-                    className="border text-sm font-['Neue Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
+                    className="border text-[2vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
                     key={index}
                   >
                     {" "}
@@ -99,8 +99,8 @@ const FeaturedP = () => {
             }
           </h1>
           <div className="w-full flex items-center gap-2">
-            <p className="w-2 h-2 rounded-full bg-zinc-900"></p>
-            <h1 className="uppercase text-[2.5vw] font-['Neue_Montreal'] tracking-tight">
+            <p className="w-3 md:w-2 h-3 md:h-2 rounded-full bg-zinc-900"></p>
+            <h1 className="uppercase text-[2.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-tight">
             Ah2 & matt horn
             </h1>
           </div>
@@ -120,7 +120,7 @@ const FeaturedP = () => {
               (it, index) => {
                 return (
                   <div
-                    className="border text-sm font-['Neue Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
+                    className="border text-[2vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
                     key={index}
                   >
                     {" "}
@@ -157,8 +157,8 @@ const FeaturedP = () => {
               }
           </h1>
           <div className="w-full flex items-center gap-2">
-            <p className="w-2 h-2 rounded-full bg-zinc-900"></p>
-            <h1 className="uppercase text-[2.5vw] font-['Neue_Montreal'] tracking-tight">
+            <p className="w-3 md:w-2 h-3 md:h-2 rounded-full bg-zinc-900"></p>
+            <h1 className="uppercase text-[2.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-tight">
               Trawa
             </h1>
           </div>
@@ -174,7 +174,7 @@ const FeaturedP = () => {
               (it, index) => {
                 return (
                   <div
-                    className="border text-sm font-['Neue Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
+                    className="border text-[2vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
                     key={index}
                   >
                     {" "}
@@ -208,8 +208,9 @@ const FeaturedP = () => {
             }
           </h1>
           <div className="w-full flex items-center gap-2">
-            <h1 className="uppercase text-[2.5vw] font-['Neue_Montreal'] tracking-tight">
-              "Premium Blend"
+          <p className="w-3 md:w-2 h-3 md:h-2 rounded-full bg-zinc-900"></p>
+            <h1 className="uppercase text-[2.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-tight">
+              Premium Blend
             </h1>
           </div>
           <div className="card w-full  rounded-lg ">
@@ -223,7 +224,7 @@ const FeaturedP = () => {
             {["Branded Template"].map((it, index) => {
               return (
                 <div
-                  className="border text-sm font-['Neue Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
+                  className="border text-[2vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
                   key={index}
                 >
                   {" "}
