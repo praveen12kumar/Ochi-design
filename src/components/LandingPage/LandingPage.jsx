@@ -23,7 +23,7 @@ const LandingPage = () => {
             </div>    
            
         </div> 
-        <div className="w-full mt-32 py-3 px-4 md:px-10 border-t border-zinc-400 flex flex-col md:flex-row md:items-center justify-between gap-10 md:gap-0 font-['Neue Montreal']">  
+        <div className="w-full mt-32 py-3 px-4 md:px-10 border-t border-zinc-400 flex flex-col md:flex-row md:items-center justify-between gap-10 md:gap-0 font-['Neue_Montreal']">  
         {
             ["For public and private companies", "From the first pitch to IPO "].map((item, index) => {
                 return (
