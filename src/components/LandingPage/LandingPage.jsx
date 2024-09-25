@@ -5,7 +5,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 const LandingPage = () => {
 
   return (
-    <div data-scroll data-scroll-speed="-.3" className="w-full h-full bg-[#F1F1F1]  pt-1 -mb-3 md:mb-0 "> 
+    <div data-scroll data-scroll-speed="-.3" className="w-full min-h-full bg-[#F1F1F1]  pt-1 -mb-3 md:mb-0 "> 
         <div className="textstructure  mt-28 md:mt-40 px-4 md:px-10 ">
             <div className="masker">
                 <h1 className="w-full uppercase text-[12vw] sm:text-[9vw]  md:text-[7vw] font-['Founders_Grotesk '] font-bold leading-[11vw] md:leading-[6vw] tracking-tighter">We Create</h1>    
@@ -33,7 +33,7 @@ const LandingPage = () => {
             })
         }
         <div className="start flex items-center gap-2">
-            <div className=" text-[4vw] px-4 py-1 border border-zinc-600 rounded-full uppercase">Start the project</div>
+            <div className=" text-[4vw] md:text-[2vw] lg:text-[1.1vw] px-4 py-1 border border-zinc-600 rounded-full uppercase font-['Neue_Montreal'] ">Start the project</div>
             <div className="hidden w-9 h-9 border border-zinc-600 rounded-full md:flex items-center justify-center">
                 <span className="rotate-[125deg]"><FaArrowLeftLong /></span>
             </div>

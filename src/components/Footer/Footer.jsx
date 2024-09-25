@@ -1,14 +1,14 @@
-import { p } from "framer-motion/client"
+
 import Heading from "../Heading/Heading"
 
 
 const Footer = () => {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="0.1"  className='w-full min-h-screen md:h-screen flex flex-col md:flex-row gap-5 bg-[#F1F1F1] px-4 md:px-14 pt-20 pb-5'>
+    <div data-scroll data-scroll-speed="0.2"  className='w-full min-h-screen md:h-screen flex flex-col md:flex-row gap-5 bg-[#F1F1F1] px-4 md:px-14 pt-20 pb-5'>
         <div className="w-1/2 h-full flex flex-col justify-between">
             <div className="flex flex-col gap-3">
-                <Heading text={"Eye-"} classes={"text-[12vw] -mb-3 md:-mb-8  md:text-[8vw] lg:text-[6vw]"}/>
-                <Heading text={"Opening"} classes={"text-[12vw] md:text-[8vw] -mb-5 md:-mb-8 lg:text-[6vw]"}/>
+                <Heading text={"Eye-"} classes={"text-[12vw] -mb-3 md:-mb-5  md:text-[8vw] lg:text-[6vw]"}/>
+                <Heading text={"Opening"} classes={"text-[12vw] md:text-[8vw] -mb-5 md:-mb-5 lg:text-[6vw]"}/>
             </div>
             <div className="hidden md:block">
             <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="w-full md:w-1/2 h-full  flex flex-col justify-between ">
-            <Heading text={"Presentations"} classes={"text-[12vw] md:text-[8vw] lg:text-[6vw]"}/>
+            <Heading text={"Presentations"} classes={"text-[12vw] md:text-[6vw] lg:text-[6vw]"}/>
             <div className="w-full flex flex-col gap-3 font-['Neue_Montreal']">
             {
                  ["S:","Instagram", "Behance", "Facebook", "Linkedin"].map((item, index) => {

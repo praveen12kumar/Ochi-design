@@ -5,7 +5,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 
 const StartProject = () => {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-0.2" className="w-full min-h-screen pt-20 md:py-40 bg-[#CDEA68] flex flex-col items-center">
+    <div data-scroll data-scroll-section data-scroll-speed="-0.3" className="w-full min-h-screen pt-20 md:py-40 bg-[#CDEA68] flex flex-col items-center">
         <div  className=" w-full h-full flex flex-col gap-0 md:gap-0 items-center">
             <Heading text={"READY"} classes={"text-[14vw] "} />
             <Heading text={"TO START"} classes={"text-[14vw]"}/>

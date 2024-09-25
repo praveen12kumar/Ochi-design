@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 const About = () => {
     const [showArrow, setShowArrow] = useState(false);
   return (
-    <div data-scroll data-scroll-speed="-0.2" className="w-full py-14 md:py-20 flex flex-col -mt-5 md:mt-0 rounded-tl-3xl rounded-tr-3xl bg-[#CDEA68]">
+    <div data-scroll data-scroll-speed="-0.3" className="w-full py-14 md:py-20 flex flex-col -mt-5 md:mt-0 rounded-tl-3xl rounded-tr-3xl bg-[#CDEA68]">
         <h1 className="w-full md:w-[93%]  pb-16 text-[8vw] md:text-[3.5vw] px-4 md:px-14 leading-8 md:leading-none font-['Neue_Montreal'] tracking-tight md:tracking-tight"> Ochi is a strategic presentation agency for forward-thinking businesses that need to <span className="underline">raise funds</span>, <span className="underline">sell products</span>, <span className="underline">explain complex ideas</span>, and <span className="underline">hire great people
             </span> .
         </h1>
@@ -33,15 +33,16 @@ const About = () => {
             <div className="">
                 <h1 className="text-[8vw]  md:text-[3.5vw] font-['Neue_Montreal'] tracking-tight md:tracking-tighter  leading-none">Our approach:</h1>
                 <Button  
-                classes={"w-[50vw] text-[3.5vw] md:w-[12vw] py-4 md:py-5 "}
+                classes={"w-[50vw] text-[3.5vw] md:text-[2vw] lg:text-[1.1vw] md:w-[12vw] py-4 md:py-3 "}
                 text={"Read more"} 
                 icon={<FaArrowLeftLong className="rotate-[175deg]" />}
                 iconClasses={"w-11 h-11 px-4 bg-white rounded-full  flex items-center justify-center"}
+                showArrow={showArrow} setShowArrow = {setShowArrow}
                 />
             </div>
             <div className="">
-                <div className={`${showArrow && "scale-95"} transition-transform  duration-700 ease-in ` }>
-                <img className={`rounded-3xl`} src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" alt="about" />
+                <div className={`${showArrow && "scale-95"} transition-transform  duration-500 ease-in ` }>
+                    <img className={`rounded-3xl`} src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg" alt="about" />
                 </div>
             </div>
         </div>
