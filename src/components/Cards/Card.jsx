@@ -2,7 +2,7 @@
 
 const Card = () => {
   return (
-    <div  className="w-full   min-h-screen px-4 md:px-14 pb-16 md:pb-0 flex items-center justify-center  ">
+    <div  className="w-full   min-h-screen px-4 md:px-14 pb-40 md:pb-0 flex items-center justify-center  ">
     <div className="w-full h-full md:h-[90vh] lg:h-[50vh] flex flex-col lg:flex-row items-center gap-5">
             <div className="cardContainer w-full h-[60vw] md:h-full  md:w-full  rounded-lg relative flex items-center justify-center bg-[#004D43]">
                 <img src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg" alt="" />

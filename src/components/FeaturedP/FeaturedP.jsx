@@ -47,8 +47,8 @@ const FeaturedP = () => {
             }
           </h1>
           <div className="w-full flex items-center gap-2">
-            <p className="w-3 md:w-2 h-3 md:h-2 rounded-full bg-zinc-900"></p>
-            <h1 className="uppercase text-[2.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-tight">
+            <p className="w-2 h-2 rounded-full bg-zinc-900"></p>
+            <h1 className="uppercase text-[3.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-normal">
               Cardboard spaceship
             </h1>
           </div>
@@ -64,12 +64,12 @@ const FeaturedP = () => {
             />
           </motion.div>
 
-          <div className="w-full py-2  flex items-center gap-5">
+          <div className="w-full py-2  flex flex-wrap items-center gap-2 md:gap-5">
             {["Branded Template", "sales Deck", "Social media templates"].map(
               (it, index) => {
                 return (
                   <div
-                    className="border text-[2vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
+                    className="border text-[3vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal  text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
                     key={index}
                   >
                     {" "}
@@ -99,8 +99,8 @@ const FeaturedP = () => {
             }
           </h1>
           <div className="w-full flex items-center gap-2">
-            <p className="w-3 md:w-2 h-3 md:h-2 rounded-full bg-zinc-900"></p>
-            <h1 className="uppercase text-[2.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-tight">
+          <p className="w-2 h-2 rounded-full bg-zinc-900"></p>
+          <h1 className="uppercase text-[3.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-normal">
             Ah2 & matt horn
             </h1>
           </div>
@@ -115,12 +115,12 @@ const FeaturedP = () => {
               alt=""
             />
           </motion.div>
-          <div className="w-full py-2  flex items-center gap-5">
+          <div className="w-full py-2  flex flex-wrap items-center gap-2 md:gap-5">
             {["Pitch Deck"].map(
               (it, index) => {
                 return (
                   <div
-                    className="border text-[2vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
+                    className="border text-[3vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal  text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
                     key={index}
                   >
                     {" "}
@@ -136,7 +136,7 @@ const FeaturedP = () => {
       </div>
 
 
-      <div className="cards w-full flex flex-col justify-between md:flex-row md:flex-wrap px-6 md:px-14">
+      <div className="cards w-full flex flex-col justify-between md:flex-row md:flex-wrap px-4 pt-8 md:pt-16 md:px-14">
         {/* ---------------------3rd card-------------------- */}
         <motion.div
           onHoverStart={()=> handleHover(2)}
@@ -157,8 +157,8 @@ const FeaturedP = () => {
               }
           </h1>
           <div className="w-full flex items-center gap-2">
-            <p className="w-3 md:w-2 h-3 md:h-2 rounded-full bg-zinc-900"></p>
-            <h1 className="uppercase text-[2.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-tight">
+          <p className="w-2 h-2 rounded-full bg-zinc-900"></p>
+          <h1 className="uppercase text-[3.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-normal">
               Trawa
             </h1>
           </div>
@@ -169,12 +169,12 @@ const FeaturedP = () => {
               alt=""
             />
           </div>
-          <div className="w-full py-2  flex items-center gap-5">
-            {["Brand Identity", "Design Research", "Investor Deck"].map(
+          <div className="w-full py-2  flex flex-wrap items-center gap-2 md:gap-5">
+            {["Brank Identity", "Design Research", "Investor Deck"].map(
               (it, index) => {
                 return (
                   <div
-                    className="border text-[2vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
+                    className="border text-[3vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal  text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
                     key={index}
                   >
                     {" "}
@@ -208,8 +208,8 @@ const FeaturedP = () => {
             }
           </h1>
           <div className="w-full flex items-center gap-2">
-          <p className="w-3 md:w-2 h-3 md:h-2 rounded-full bg-zinc-900"></p>
-            <h1 className="uppercase text-[2.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-tight">
+          <p className="w-2 h-2 rounded-full bg-zinc-900"></p>
+          <h1 className="uppercase text-[3.5vw] md:text-[1.2vw] md:font-light leading-none: font-['Neue_Montreal'] tracking-normal">
               Premium Blend
             </h1>
           </div>
@@ -220,18 +220,20 @@ const FeaturedP = () => {
               alt=""
             />
           </div>
-          <div className="w-full py-2 flex items-center gap-5">
-            {["Branded Template"].map((it, index) => {
-              return (
-                <div
-                  className="border text-[2vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
-                  key={index}
-                >
-                  {" "}
-                  {it}{" "}
-                </div>
-              );
-            })}
+          <div className="w-full py-2  flex flex-wrap items-center gap-2 md:gap-5">
+            {["Branded Template"].map(
+              (it, index) => {
+                return (
+                  <div
+                    className="border text-[3vw] md:text-[0.9vw] font-['Neue_Montreal'] font-normal  text-zinc-800 px-2 py-1 border-zinc-600 rounded-full uppercase"
+                    key={index}
+                  >
+                    {" "}
+                    {it}{" "}
+                  </div>
+                );
+              }
+            )}
           </div>
         </motion.div>
       </div>
