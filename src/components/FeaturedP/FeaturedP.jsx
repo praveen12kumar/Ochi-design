@@ -18,7 +18,7 @@ const FeaturedP = () => {
   
   
   return (
-    <div data-scroll data-scroll-section className="w-full min-h-screen py-3 md:py-10 bg-[#F1F1F1]">
+    <div  className="w-full min-h-screen py-3 md:py-10 bg-[#F1F1F1]">
       <div className="w-full px-4 md:px-14 py-8 border-b border-zinc-700">
         <h1 className=" text-[8vw] md:text-[3vw] font-['Neue_Montreal'] tracking-normal">
           Featured projects
